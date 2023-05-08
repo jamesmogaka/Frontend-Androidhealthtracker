@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "313019512509",
+    "project_id": "android-health-tracker",
+    "storage_bucket": "android-health-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313019512509:android:6b3031eb868ddc6b05e9d4",
+        "android_client_info": {
+          "package_name": "com.example.androidhealthtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313019512509-a2ll63i3dmd4qq5ofimk1r7r84r02onf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.androidhealthtracker",
+            "certificate_hash": "13119ee8db2daeddfb854918e957ff0a70f32c4d"
+          }
+        },
+        {
+          "client_id": "313019512509-lalkkphap42v369o8ivdg2ffk6d9esbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-TH8Nl_SXdHkUiKLc288mp8d2ssamKLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313019512509-lalkkphap42v369o8ivdg2ffk6d9esbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
