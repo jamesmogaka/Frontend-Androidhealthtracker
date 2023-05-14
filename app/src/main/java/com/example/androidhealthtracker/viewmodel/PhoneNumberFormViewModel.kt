@@ -23,17 +23,17 @@ class PhoneNumberFormViewModel: ViewModel() {
         private set
 
 
-    private fun phoneNumberEntered(phoneNumber: String) {
+    private fun phoneNumberEntered (phoneNumber: String) {
         //Update the phone Number state
         entryState = entryState.copy(phoneNumber =phoneNumber)
     }
 
-    private fun otpEntry(otpNUmber: String) {
+    private fun otpEntry (otpNUmber: String) {
         //update the otp
         entryState  = entryState.copy(OtpValue =otpNUmber)
     }
 
-    private fun sendOtpFromFirebase(
+    private fun sendOtpFromFirebase (
         auth: FirebaseAuth,
         context:Context,
         navController: NavController
@@ -78,7 +78,7 @@ class PhoneNumberFormViewModel: ViewModel() {
         PhoneAuthProvider.verifyPhoneNumber(options)
     }
 
-    private fun submitOtp(
+    private fun submitOtp (
         auth: FirebaseAuth,
         navController: NavController
     ) {
@@ -87,7 +87,7 @@ class PhoneNumberFormViewModel: ViewModel() {
     }
     //
     //Return a user
-    private fun signInWithPhoneAuthCredential(
+    private fun signInWithPhoneAuthCredential (
         credential: PhoneAuthCredential,
         auth: FirebaseAuth,
         navController:NavController
@@ -117,7 +117,7 @@ class PhoneNumberFormViewModel: ViewModel() {
             }
     }
 
-    private fun countryCodeEntered(countryCode: String) {
+    private fun countryCodeEntered (countryCode: String) {
         //
         //Update the country code state
         entryState = entryState.copy(countryCode = countryCode)
